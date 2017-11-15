@@ -2,11 +2,11 @@
 <addon
 	id="service.languagepreferencemanager"
 	name="Language Preference Manager"
-	version="0.0.7"
+	version="0.0.8"
 	provider-name="ace20022"
 	>
 	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.service" library="default.py" start="login"/>
 	<extension point="xbmc.python.script" library="default.py">
